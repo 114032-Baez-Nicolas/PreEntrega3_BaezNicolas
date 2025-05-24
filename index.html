@@ -74,42 +74,75 @@
                 </div>
             </div>
 
-            <!-- TABLA -->
-            <div class="motos__tabla mt-4">
-                <table>
-                    <tr>
-                        <th>HONDA</th>
-                        <th>YAMAHA</th>
-                        <th>VOGE</th>
-                    </tr>
-                    <tr>
-                        <td><img src="./assets/tabla/VISION110.jpg" alt="Honda Vision 110 2025"
-                                onclick="mostrarAlertaSinStock('(Honda Vision 110 2025)')">
-                        </td>
-                        <td><img src="./assets/tabla/TRACER7GT2025.jpg" alt="Yamaha Tracer 7 / GT 2025"
-                                onclick="mostrarAlertaConStock('(Yamaha Tracer 7 / GT 2025)')"></td>
-                        <td><img src="./assets/tabla/SR4MAX.jpg" alt="SR4MAX"
-                                onclick="mostrarAlertaConStock('(VOGE SR4 MAX)')"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="./assets/tabla/CB500F.jpg" alt="cb500f"
-                                onclick="mostrarAlertaSinStock('(HONDA CB500F)')"></td>
-                        <td><img src="./assets/tabla/XSR125.jpg" alt="Yamaha XSR125"
-                                onclick="mostrarAlertaSinStock('(Yamaha XSR125)')"></td>
-                        <td><img src="./assets/tabla/500DS.jpg" alt="VOGE 500DS"
-                                onclick="mostrarAlertaConStock('(VOGE 500DS)')"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="./assets/tabla/CB750HORNET.jpg" alt="cb750hornet"
-                                onclick="mostrarAlertaConStock('(HONDA CB750 HORNET)')"></td>
-                        <td><img src="./assets/tabla/TMAX2025.jpg" alt="XTZ250"
-                                onclick="mostrarAlertaSinStock('(YAMAHA TMAX 2025)')">
-                        </td>
-                        <td><img src="./assets/tabla/125R.jpg" alt="500DSX"
-                                onclick="mostrarAlertaConStock('(VOGE 125R)')"></td>
-                    </tr>
-                </table>
+            <!-- SECCIÓN DE MOTOS CON GRILLA DE CARDS -->
+            <div class="motos__grid mt-5">
+                <!-- Honda -->
+                <div class="card" onclick="mostrarAlertaSinStock('Honda Vision 110 2025')">
+                    <img src="./assets/tabla/VISION110.jpg" class="card-img-top" alt="Honda Vision 110 2025">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda Vision 110</h5>
+                    </div>
+                </div>
+
+                <div class="card" onclick="mostrarAlertaSinStock('HONDA CB500F')">
+                    <img src="./assets/tabla/CB500F.jpg" class="card-img-top" alt="Honda CB500F">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda CB500F</h5>
+                    </div>
+                </div>
+
+                <div class="card" onclick="mostrarAlertaConStock('HONDA CB750 HORNET')">
+                    <img src="./assets/tabla/CB750HORNET.jpg" class="card-img-top" alt="Honda CB750 HORNET">
+                    <div class="card-body">
+                        <h5 class="card-title">CB750 HORNET</h5>
+                    </div>
+                </div>
+
+                <!-- Yamaha -->
+                <div class="card" onclick="mostrarAlertaConStock('Yamaha Tracer 7 / GT 2025')">
+                    <img src="./assets/tabla/TRACER7GT2025.jpg" class="card-img-top" alt="Yamaha Tracer 7 GT 2025">
+                    <div class="card-body">
+                        <h5 class="card-title">Tracer 7 GT</h5>
+                    </div>
+                </div>
+
+                <div class="card" onclick="mostrarAlertaSinStock('Yamaha XSR125')">
+                    <img src="./assets/tabla/XSR125.jpg" class="card-img-top" alt="Yamaha XSR125">
+                    <div class="card-body">
+                        <h5 class="card-title">Yamaha XSR125</h5>
+                    </div>
+                </div>
+
+                <div class="card" onclick="mostrarAlertaSinStock('YAMAHA TMAX 2025')">
+                    <img src="./assets/tabla/TMAX2025.jpg" class="card-img-top" alt="Yamaha TMAX 2025">
+                    <div class="card-body">
+                        <h5 class="card-title">Yamaha TMAX 2025</h5>
+                    </div>
+                </div>
+
+                <!-- VOGE -->
+                <div class="card" onclick="mostrarAlertaConStock('VOGE SR4 MAX')">
+                    <img src="./assets/tabla/SR4MAX.jpg" class="card-img-top" alt="VOGE SR4 MAX">
+                    <div class="card-body">
+                        <h5 class="card-title">VOGE SR4 MAX</h5>
+                    </div>
+                </div>
+
+                <div class="card" onclick="mostrarAlertaConStock('VOGE 500DS')">
+                    <img src="./assets/tabla/500DS.jpg" class="card-img-top" alt="VOGE 500DS">
+                    <div class="card-body">
+                        <h5 class="card-title">VOGE 500DS</h5>
+                    </div>
+                </div>
+
+                <div class="card" onclick="mostrarAlertaConStock('VOGE 125R')">
+                    <img src="./assets/tabla/125R.jpg" class="card-img-top" alt="VOGE 125R">
+                    <div class="card-body">
+                        <h5 class="card-title">VOGE 125R</h5>
+                    </div>
+                </div>
             </div>
+
         </section>
     </main>
 
