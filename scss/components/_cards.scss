@@ -65,3 +65,57 @@
         }
     }
 }
+
+// -------------------- MOTOS GRID --------------------
+.motos__grid {
+    @include contenedor-limitado(950px);
+    display: grid;
+    gap: 1.5rem;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include desktop-md {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        max-width: 280px;
+        margin: 0 auto;
+        border-radius: 12px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        @include sombra-suave;
+
+        &:hover {
+            transform: translateY(-6px);
+            @include sombra-fuerte;
+        }
+
+        .card-img-top {
+            height: 160px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .card-body {
+            background-color: $blanco-puro;
+            padding: 1rem;
+            text-align: center;
+
+            h5 {
+                font-size: 15px;
+                color: $azul-primario;
+                margin: 0;
+            }
+        }
+    }
+}
