@@ -241,35 +241,6 @@ html {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.motos__tabla {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 2rem;
-}
-.motos__tabla table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-.motos__tabla th,
-.motos__tabla td {
-  padding: 10px;
-  text-align: center;
-}
-.motos__tabla img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  object-fit: cover;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-.motos__tabla img:hover {
-  transform: scale(1.1);
-}
-
 .layout {
   min-height: 100vh;
   background-color: #f8f8f8;
