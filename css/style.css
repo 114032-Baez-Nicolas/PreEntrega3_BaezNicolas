@@ -1,3 +1,51 @@
+.bg-azul-primario {
+  background-color: #396390;
+}
+
+.text-azul-primario {
+  color: #396390;
+}
+
+.bg-azul-navy {
+  background-color: #0369ce;
+}
+
+.text-azul-navy {
+  color: #0369ce;
+}
+
+.bg-azul-oscuro {
+  background-color: #0362c7;
+}
+
+.text-azul-oscuro {
+  color: #0362c7;
+}
+
+.bg-marron-hover {
+  background-color: #7b290c;
+}
+
+.text-marron-hover {
+  color: #7b290c;
+}
+
+.bg-rojo-error {
+  background-color: #dc3545;
+}
+
+.text-rojo-error {
+  color: #dc3545;
+}
+
+.bg-verde-exito {
+  background-color: #198754;
+}
+
+.text-verde-exito {
+  color: #198754;
+}
+
 /* -------------------- MIXINS GENERALES -------------------- */
 @keyframes aparecer {
   0% {
@@ -37,7 +85,7 @@ html {
   bottom: 20px;
   right: 30px;
   z-index: 1001;
-  background-color: #0056b3;
+  background-color: #0362c7;
   color: #ffffff;
   padding: 12px 50px;
   border-radius: 50px;
@@ -45,25 +93,16 @@ html {
   text-decoration: none;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 .btn-flotante:hover {
   transform: scale(1.05);
-}
-
-.button-primario {
-  background-color: #448fff;
+  background-color: #0369ce;
   color: #ffffff;
-  padding: 12px 30px;
-  border-radius: 8px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .button-oscuro {
-  background-color: #0056b3;
+  background-color: #396390;
   color: #ffffff;
   padding: 12px 30px;
   border-radius: 8px;
@@ -74,19 +113,8 @@ html {
 }
 .button-oscuro:hover {
   transform: scale(1.05);
-  background-color: #71a7fa;
+  background-color: #5676a5;
   color: #ffffff;
-}
-
-.button-hover {
-  background-color: #7b290c;
-  color: #ffffff;
-  padding: 12px 30px;
-  border-radius: 8px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .button-gris {
@@ -101,41 +129,8 @@ html {
 }
 .button-gris:hover {
   transform: scale(1.05);
-  background-color: #7b290c;
+  background-color: #707070;
   color: #ffffff;
-}
-
-.button-error {
-  background-color: #dc3545;
-  color: #ffffff;
-  padding: 12px 30px;
-  border-radius: 8px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.button-exito {
-  background-color: #198754;
-  color: #ffffff;
-  padding: 12px 30px;
-  border-radius: 8px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.button-advertencia {
-  background-color: #ffc107;
-  color: #ffffff;
-  padding: 12px 30px;
-  border-radius: 8px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .motoCard,
@@ -178,7 +173,7 @@ html {
 .motoCard .motoText h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #448fff;
+  color: #396390;
 }
 .motoCard .motoText p {
   font-size: 16px;
