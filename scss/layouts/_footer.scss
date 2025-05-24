@@ -39,3 +39,20 @@
         height: 22px;
     }
 }
+
+// -------------------- ICONOS DE REDES SOCIALES --------------------
+$redes: (
+    facebook: "../assets/icons/facebook.png",
+    instagram: "../assets/icons/Instagram.png",
+    twitter: "../assets/icons/twitter.png"
+);
+
+@each $red, $url in $redes {
+    .footer__#{$red} {
+        background-image: url(#{$url});
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 24px;
+        height: 24px;
+    }
+}

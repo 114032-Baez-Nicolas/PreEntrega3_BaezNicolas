@@ -51,6 +51,93 @@ html {
   transform: scale(1.05);
 }
 
+.button-primario {
+  background-color: #448fff;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-oscuro {
+  background-color: #0056b3;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button-oscuro:hover {
+  transform: scale(1.05);
+  background-color: #71a7fa;
+  color: #ffffff;
+}
+
+.button-hover {
+  background-color: #7b290c;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-gris {
+  background-color: #555555;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button-gris:hover {
+  transform: scale(1.05);
+  background-color: #7b290c;
+  color: #ffffff;
+}
+
+.button-error {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-exito {
+  background-color: #198754;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-advertencia {
+  background-color: #ffc107;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .motoCard,
 .financiacion-card,
 .nosotros-card,
@@ -91,7 +178,7 @@ html {
 .motoCard .motoText h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #0d6efd;
+  color: #448fff;
 }
 .motoCard .motoText p {
   font-size: 16px;
@@ -251,6 +338,30 @@ html {
 .footer__redes img {
   width: 22px;
   height: 22px;
+}
+
+.footer__facebook {
+  background-image: url(../assets/icons/facebook.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__instagram {
+  background-image: url(../assets/icons/Instagram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__twitter {
+  background-image: url(../assets/icons/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
 }
 
 .layout__main {
