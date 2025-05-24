@@ -13,7 +13,7 @@ La consigna consistió en aplicar una **estructura escalable usando SCSS**, con 
 ## 🎥 Vista previa en video
 
 📺 Podés ver una demostración del proyecto en este video de YouTube:  
-🔗 [https://www.youtube.com/watch?v=gk874tHHH2Q](https://www.youtube.com/watch?v=QTfoy8dKvVA)
+🔗 [https://www.youtube.com/watch?v=QTfoy8dKvVA](https://www.youtube.com/watch?v=5PrjmakeGc0)
 
 ---
 
