@@ -46,4 +46,6 @@ La consigna consistió en aplicar una **estructura escalable usando SCSS**, con 
 - Botones personalizados con `@each` y hover dinámico
 - Animaciones con Animate.css (`fadeInUp`, `zoomIn`)
 - Cards con sombras, escalas y transiciones suaves
+- Animaciones personalizadas con SCSS (@keyframes) aplicadas a cards y botones
+- Botón flotante de contacto con efecto "pulsante" continuo (@keyframes bounce)
 - Uso de `@each` para generación dinámica de clases (`colors`, `buttons`, `footer icons`)

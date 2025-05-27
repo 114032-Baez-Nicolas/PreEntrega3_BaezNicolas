@@ -1,5 +1,6 @@
 // -------------------- BUTTONS --------------------
 .btn-flotante {
+    @include animacion-pulse(2s, ease-in-out);
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -8,7 +9,6 @@
     @include transicion-suave;
 
     &:hover {
-        transform: scale(1.05);
         background-color: $azul-navy;
         color: $blanco-puro;
     }

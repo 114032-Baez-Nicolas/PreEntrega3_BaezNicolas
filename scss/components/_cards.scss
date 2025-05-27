@@ -87,6 +87,7 @@
     }
 
     .card {
+        @include animacion-slide-up(1.5s, ease-in-out);
         max-width: 280px;
         margin: 0 auto;
         border-radius: 12px;
