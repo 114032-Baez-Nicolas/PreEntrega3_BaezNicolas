@@ -61,7 +61,7 @@ html {
   word-break: break-word;
 }
 
-/* -------------------- ANIMACIONES GLOBALES -------------------- */
+/* --------------------- ANIMACIONES GLOBALES --------------------- */
 @keyframes fadeIn {
   from {
     opacity: 0;
